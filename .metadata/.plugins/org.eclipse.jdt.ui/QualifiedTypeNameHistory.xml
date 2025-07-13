@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.aurionpro.model.TraficSignal"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.Grade"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.PaymentStatus"/>
+    <fullyQualifiedTypeName name="javax.print.CancelablePrintJob"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.TicketType"/>
+    <fullyQualifiedTypeName name="javax.lang.model.util.ElementScanner14"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.ElectricityBill"/>
+    <fullyQualifiedTypeName name="com.aurionpro.text.ElectricityBill_05"/>
+    <fullyQualifiedTypeName name="com.aurionpro.model.BookingStatus"/>
+</qualifiedTypeNameHistroy>
