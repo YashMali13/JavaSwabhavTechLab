@@ -1,0 +1,24 @@
+package com.aurionpro.text;
+import java.util.*;
+
+import com.aurionpro.model.ElectricityBill;
+public class ElectricityBill_05 {
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter Apartment Number : ");
+	int apartmentNumber = scanner.nextInt();
+	scanner.nextLine();
+	
+	System.out.print("How Many Unit Consumeed : ");
+	int unitConsumeed = scanner.nextInt();
+	
+	System.out.print("How Many Cost/Unit Consumeed : ");
+	double costParUnit = scanner.nextDouble();
+	scanner.nextLine();
+	
+	ElectricityBill electricBill = new ElectricityBill(apartmentNumber, unitConsumeed);
+	electricBill.displyBill();
+	
+	}
+}

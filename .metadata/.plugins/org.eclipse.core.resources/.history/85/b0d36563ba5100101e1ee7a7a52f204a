@@ -1,0 +1,10 @@
+package com.aurionpro.text;
+
+import java.util.Scanner;
+
+public class PaymentStatus_03 {
+
+public static void main(String[] args) {
+	
+}
+}

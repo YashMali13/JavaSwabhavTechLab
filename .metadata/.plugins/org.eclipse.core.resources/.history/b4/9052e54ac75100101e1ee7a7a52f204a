@@ -1,0 +1,15 @@
+package com.aurionpro.text;
+import java.util.Scanner;
+import com.aurionpro.model.PaymentStatus;
+public class PaymentStatus_03 {
+
+public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter Your payment ststus :");
+	String ip = scanner.nextLine().toUpperCase();
+	
+	PaymentStatus paystatus = PaymentStatus.valueOf(ip);
+	System.out.println("Your status -> "+ paystatus.getPaymentStatus() );
+	
+}
+}
