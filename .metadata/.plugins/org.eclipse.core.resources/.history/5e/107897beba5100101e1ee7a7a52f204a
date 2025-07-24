@@ -1,0 +1,16 @@
+package com.aurionpro.model;
+
+public enum TraficSignal {
+RED("Stop"), 
+YELLOW("Get Ready"),
+GREEN("Go");
+ 
+	private String action;
+	private TraficSignal(String action) {
+		this.action=action;
+	}
+	
+public String getAction() {
+	return action;
+}
+}
